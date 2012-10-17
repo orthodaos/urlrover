@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/SpamBot/urlrover/src"/>
+	<classpathentry kind="src" path="/SpamBot/urlrover/test">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/SpamBot/urlrover/dev-resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/SpamBot/urlrover/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/SpamBot/urlrover/target/classes">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="ccw.LEININGEN_CONTAINER"/>
+	<classpathentry kind="lib" path="/SpamBot/urlrover/classes"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
