@@ -11,7 +11,7 @@
                 (java.io.InputStreamReader. stream))]
       (apply str (line-seq buf)))))
 
-(defn fetch-data [url]
+(defn fetch-data ([url]
   (let  [con    (-> url java.net.URL. .openConnection)
          fields (reduce (fn [h v] 
                           (assoc h (.getKey v) (into [] (.getValue v))))
@@ -31,4 +31,7 @@
     (.close in)
     (.close out)
     (.disconnect con)))
+   ([a a] (str "tttt" "eeeee")))
+
+(fetch-data 1 1)
 
